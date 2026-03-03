@@ -10,7 +10,7 @@ export const weddingDetails = {
       name: "M.L. Priyadharshini",
       fatherName: "Mr. C. Mani, M.A.",
       motherName: "Mrs. N. Leelal, M.A., B.Ed.",
-      image: "/images/ABP_1549.JPG.jpg",
+      image: "/images/IMG-20250813-WA0023-crop.jpg",
     },
   },
 
