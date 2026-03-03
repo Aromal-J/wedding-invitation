@@ -4,13 +4,13 @@ export const weddingDetails = {
       name: "Aravind Uthaman",
       fatherName: "Mr. G. Uthaman",
       motherName: "Mrs. Sujitha Uthaman",
-      image: "/images/ABP_1036.JPG.jpeg",
+      image: "/images/ABP_1036.JPG.jpg",
     },
     bride: {
       name: "M.L. Priyadharshini",
       fatherName: "Mr. C. Mani, M.A.",
       motherName: "Mrs. N. Leelal, M.A., B.Ed.",
-      image: "/images/ABP_1549.JPG.jpeg",
+      image: "/images/ABP_1549.JPG.jpg",
     },
   },
 
@@ -46,12 +46,12 @@ export const weddingDetails = {
 
   gallery: {
     images: [
-      "/images/ABP_1036.JPG.jpeg",
-      "/images/ABP_1867.JPG.jpeg",
-      "/images/1757912612334.jpg.jpeg",
-      "/images/ABP_1936.JPG.jpeg",
-      "/images/1757949765958.jpg.jpeg",
-      "/images/ABP_1955.JPG.jpeg",
+      "/images/ABP_1036.JPG.jpg",
+      "/images/ABP_1867.JPG.jpg",
+      "/images/1757912612334.jpg.jpg",
+      "/images/ABP_1936.JPG.jpg",
+      "/images/1757949765958.jpg.jpg",
+      "/images/ABP_1955.JPG.jpg",
     ],
   },
 };
