@@ -40,7 +40,7 @@ export const weddingDetails = {
   },
 
   rsvp: {
-    whatsappNumber: "917034419334",
+    whatsappNumber: "919778217629",
     message: "We look forward to celebrating with you",
   },
 
