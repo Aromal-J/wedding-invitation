@@ -34,9 +34,9 @@ const EventCard = ({
 
       {/* Event Details */}
       <div className="space-y-6 text-center">
-        <div className="flex items-start justify-center space-x-3 bg-gradient-to-r from-cream/50 to-amber-50/50 rounded-lg p-4 transform transition-transform duration-300 hover:scale-105">
-          <Calendar className="text-gold w-6 h-6 mt-1" />
-          <div>
+        <div className="flex items-center justify-center space-x-3 bg-gradient-to-r from-cream/50 to-amber-50/50 rounded-lg p-4 transform transition-transform duration-300 hover:scale-105">
+          <Calendar className="text-gold w-6 h-6 flex-shrink-0" />
+          <div className="text-left">
             <p className="font-cormorant text-2xl md:text-3xl text-brown font-semibold">
               {date}
             </p>
@@ -46,9 +46,9 @@ const EventCard = ({
           </div>
         </div>
 
-        <div className="flex items-start justify-center space-x-3 bg-gradient-to-r from-amber-50/50 to-cream/50 rounded-lg p-4 transform transition-transform duration-300 hover:scale-105">
-          <Clock className="text-gold w-6 h-6 mt-1" />
-          <div>
+        <div className="flex items-center justify-center space-x-3 bg-gradient-to-r from-amber-50/50 to-cream/50 rounded-lg p-4 transform transition-transform duration-300 hover:scale-105">
+          <Clock className="text-gold w-6 h-6 flex-shrink-0" />
+          <div className="text-left">
             <p className="font-cormorant text-xl md:text-2xl text-brown/80 mb-1">
               Time
             </p>
