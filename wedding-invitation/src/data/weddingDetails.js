@@ -51,7 +51,7 @@ export const weddingDetails = {
       "/images/1757912612334.jpg.jpg",
       "/images/ABP_1936.JPG.jpg",
       "/images/1757949765958.jpg.jpg",
-      "/images/ABP_1955.JPG.jpg",
+      "/images/IMG-20250813-WA0023.jpg.jpg",
     ],
   },
 };

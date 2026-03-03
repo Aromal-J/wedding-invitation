@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="32" fill="#FAF3E0"/>
+  
+  <!-- Left ring -->
+  <circle cx="24" cy="28" r="10" fill="none" stroke="#C6A75E" stroke-width="3"/>
+  <circle cx="24" cy="28" r="7" fill="none" stroke="#C6A75E" stroke-width="1.5"/>
+  
+  <!-- Right ring -->
+  <circle cx="40" cy="28" r="10" fill="none" stroke="#C6A75E" stroke-width="3"/>
+  <circle cx="40" cy="28" r="7" fill="none" stroke="#C6A75E" stroke-width="1.5"/>
+  
+  <!-- Interlinked section -->
+  <path d="M 30 28 Q 32 24, 34 28" fill="none" stroke="#C6A75E" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Small heart accent -->
+  <path d="M 32 42 L 28 46 Q 26 48, 28 50 Q 30 52, 32 50 Q 34 52, 36 50 Q 38 48, 36 46 Z" fill="#C6A75E"/>
+</svg>
