@@ -13,16 +13,16 @@ const RSVP = ({ message, whatsappNumber }) => {
 
       <div className="max-w-4xl mx-auto relative z-10">
         {/* Decorative border */}
-        <div className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-2xl p-6 md:p-10 lg:p-16 border border-gold/30">
+        <div className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-2xl p-6 md:p-10 lg:p-16 border border-gold/30 animate-scale-in delay-200">
           {/* Top decorative element */}
-          <div className="flex justify-center items-center space-x-3 mb-6 md:mb-8">
+          <div className="flex justify-center items-center space-x-3 mb-6 md:mb-8 animate-fade-in delay-300">
             <div className="w-12 md:w-20 h-px bg-gradient-to-r from-transparent to-gold"></div>
             <Sparkles className="text-gold w-6 h-6" />
             <div className="w-12 md:w-20 h-px bg-gradient-to-l from-transparent to-gold"></div>
           </div>
 
           {/* Section Title */}
-          <div className="text-center mb-8 md:mb-10">
+          <div className="text-center mb-8 md:mb-10 animate-slide-up delay-400">
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-brown mb-3 md:mb-4 bg-gradient-to-r from-brown via-amber-900 to-brown bg-clip-text">
               RSVP
             </h2>
@@ -32,12 +32,12 @@ const RSVP = ({ message, whatsappNumber }) => {
           </div>
 
           {/* WhatsApp Button */}
-          <div className="text-center">
+          <div className="text-center animate-bounce-in delay-600">
             <a
               href={whatsappLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center space-x-2 md:space-x-3 px-6 py-3 md:px-10 md:py-4 bg-gradient-to-r from-green-500 to-green-600 text-white font-cormorant text-lg md:text-xl lg:text-2xl rounded-full hover:from-green-600 hover:to-green-500 transition-all duration-300 shadow-lg hover:shadow-2xl transform hover:-translate-y-2 hover:scale-105"
+              className="inline-flex items-center space-x-2 md:space-x-3 px-6 py-3 md:px-10 md:py-4 bg-gradient-to-r from-green-500 to-green-600 text-white font-cormorant text-lg md:text-xl lg:text-2xl rounded-full hover:from-green-600 hover:to-green-500 transition-all duration-300 shadow-lg hover:shadow-2xl transform hover:-translate-y-2 hover:scale-105 active:scale-95"
             >
               <MessageCircle className="w-5 h-5 md:w-6 md:h-6" />
               <span>Confirm Attendance</span>
@@ -45,7 +45,7 @@ const RSVP = ({ message, whatsappNumber }) => {
           </div>
 
           {/* Bottom decorative element */}
-          <div className="flex justify-center items-center space-x-3 mt-8 md:mt-10">
+          <div className="flex justify-center items-center space-x-3 mt-8 md:mt-10 animate-fade-in delay-800">
             <div className="w-12 md:w-20 h-px bg-gradient-to-r from-transparent to-gold"></div>
             <Sparkles className="text-gold w-6 h-6" />
             <div className="w-12 md:w-20 h-px bg-gradient-to-l from-transparent to-gold"></div>

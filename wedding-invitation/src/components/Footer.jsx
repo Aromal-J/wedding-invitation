@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="py-12 md:py-16 bg-gradient-to-b from-cream to-amber-100 px-6">
       <div className="max-w-4xl mx-auto">
         {/* Thank You Message */}
-        <div className="text-center mb-8">
+        <div className="text-center mb-8 animate-fade-in delay-100">
           <div className="flex justify-center items-center space-x-3 mb-6">
             <div className="w-16 h-px bg-gradient-to-r from-transparent to-gold"></div>
             <Sparkles className="text-gold w-6 h-6" />
@@ -31,12 +31,12 @@ const Footer = () => {
         </div>
 
         {/* Decorative Divider */}
-        <div className="my-8 flex justify-center">
+        <div className="my-8 flex justify-center animate-bounce-in delay-300">
           <Heart className="text-gold w-8 h-8 fill-current animate-pulse" />
         </div>
 
         {/* Copyright */}
-        <div className="text-center">
+        <div className="text-center animate-fade-in delay-500">
           <p className="font-cormorant text-lg text-brown/70">
             © {currentYear} Wedding Invitation. All rights reserved.
           </p>

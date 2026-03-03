@@ -5,7 +5,7 @@ const Gallery = ({ images }) => {
     <section className="py-16 md:py-24 bg-gradient-to-br from-cream via-amber-50 to-cream px-6">
       <div className="max-w-6xl mx-auto">
         {/* Section Title */}
-        <div className="text-center mb-12">
+        <div className="text-center mb-12 animate-slide-up delay-100">
           <div className="flex justify-center items-center space-x-3 mb-4">
             <div className="w-16 h-px bg-gradient-to-r from-transparent to-gold"></div>
             <Sparkles className="text-gold w-6 h-6" />
@@ -24,7 +24,7 @@ const Gallery = ({ images }) => {
           {images.map((image, index) => (
             <div
               key={index}
-              className="relative overflow-hidden rounded-2xl shadow-xl group cursor-pointer aspect-square border-2 border-gold/20 hover:border-gold/40 transition-all duration-500"
+              className={`relative overflow-hidden rounded-2xl shadow-xl group cursor-pointer aspect-square border-2 border-gold/20 hover:border-gold/40 transition-all duration-500 active:scale-95 animate-scale-in delay-${(index + 2) * 100}`}
             >
               <img
                 src={image}
@@ -40,7 +40,7 @@ const Gallery = ({ images }) => {
         </div>
 
         {/* Bottom Decorative Element */}
-        <div className="flex justify-center items-center space-x-3 mt-12">
+        <div className="flex justify-center items-center space-x-3 mt-12 animate-fade-in delay-1000">
           <div className="w-16 h-px bg-gradient-to-r from-transparent to-gold"></div>
           <Sparkles className="text-gold w-6 h-6" />
           <div className="w-16 h-px bg-gradient-to-l from-transparent to-gold"></div>

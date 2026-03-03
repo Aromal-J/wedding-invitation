@@ -24,32 +24,32 @@ const Hero = ({ groomName, brideName, weddingDate }) => {
 
       <div className="max-w-4xl mx-auto px-6 py-20 text-center relative z-10">
         {/* Decorative element */}
-        <div className="mb-8 flex justify-center items-center space-x-4 animate-fade-in">
+        <div className="mb-8 flex justify-center items-center space-x-4 animate-scale-in delay-100">
           <div className="w-20 h-px bg-gradient-to-r from-transparent to-gold"></div>
           <Sparkles className="text-gold w-6 h-6" />
           <div className="w-20 h-px bg-gradient-to-l from-transparent to-gold"></div>
         </div>
 
         {/* Main heading */}
-        <h2 className="font-cormorant text-2xl md:text-3xl text-brown mb-6 tracking-wide">
+        <h2 className="font-cormorant text-2xl md:text-3xl text-brown mb-6 tracking-wide animate-fade-in delay-200">
           Together with their families
         </h2>
 
         {/* Couple names */}
-        <h1 className="font-serif text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-brown mb-4 leading-tight">
+        <h1 className="font-serif text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-brown mb-4 leading-tight animate-slide-up delay-300">
           {groomName}
         </h1>
 
-        <div className="flex justify-center mb-4">
+        <div className="flex justify-center mb-4 animate-bounce-in delay-500">
           <Heart className="text-red-400 w-12 h-12 md:w-14 md:h-14 fill-current animate-pulse" />
         </div>
 
-        <h1 className="font-serif text-3xl sm:text-4xl md:text-7xl lg:text-8xl text-brown mb-8 leading-tight whitespace-nowrap">
+        <h1 className="font-serif text-3xl sm:text-4xl md:text-7xl lg:text-8xl text-brown mb-8 leading-tight whitespace-nowrap animate-slide-up delay-600">
           {brideName}
         </h1>
 
         {/* Wedding date */}
-        <div className="my-8 animate-fade-in delay-300">
+        <div className="my-8 animate-scale-in delay-700">
           <div className="w-32 h-px bg-gradient-to-r from-transparent via-gold to-transparent mx-auto mb-6"></div>
           <p className="font-cormorant text-2xl md:text-3xl text-brown tracking-widest">
             {weddingDate}
@@ -60,13 +60,13 @@ const Hero = ({ groomName, brideName, weddingDate }) => {
         {/* CTA Button */}
         <button
           onClick={scrollToInvitation}
-          className="mt-12 px-10 py-4 bg-gradient-to-r from-gold to-amber-600 text-cream font-cormorant text-xl md:text-2xl rounded-full hover:from-amber-600 hover:to-gold transition-all duration-300 shadow-lg hover:shadow-2xl transform hover:-translate-y-2 hover:scale-105 animate-fade-in delay-500"
+          className="mt-12 px-10 py-4 bg-gradient-to-r from-gold to-amber-600 text-cream font-cormorant text-xl md:text-2xl rounded-full hover:from-amber-600 hover:to-gold transition-all duration-300 shadow-lg hover:shadow-2xl transform hover:-translate-y-2 hover:scale-105 active:scale-95 animate-bounce-in delay-800"
         >
           View Invitation
         </button>
 
         {/* Decorative element */}
-        <div className="mt-12 flex justify-center items-center space-x-4 animate-fade-in delay-700">
+        <div className="mt-12 flex justify-center items-center space-x-4 animate-fade-in delay-1000">
           <div className="w-20 h-px bg-gradient-to-r from-transparent to-gold"></div>
           <Sparkles className="text-gold w-6 h-6" />
           <div className="w-20 h-px bg-gradient-to-l from-transparent to-gold"></div>

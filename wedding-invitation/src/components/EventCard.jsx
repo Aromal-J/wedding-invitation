@@ -9,10 +9,11 @@ const EventCard = ({
   address,
   mapLink,
   bgColor = "bg-white",
+  animationDelay = "200",
 }) => {
   return (
     <div
-      className={`${bgColor} rounded-2xl shadow-xl p-8 md:p-10 border border-gold/20 transform transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 hover:border-gold/40`}
+      className={`${bgColor} rounded-2xl shadow-xl p-8 md:p-10 border border-gold/20 transform transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 hover:border-gold/40 active:scale-95 animate-scale-in delay-${animationDelay}`}
     >
       {/* Title */}
       <div className="text-center mb-8">
@@ -33,7 +34,7 @@ const EventCard = ({
 
       {/* Event Details */}
       <div className="space-y-6 text-center">
-        <div className="flex items-center justify-center space-x-3 bg-gradient-to-r from-cream/50 to-amber-50/50 rounded-lg p-4">
+        <div className="flex items-center justify-center space-x-3 bg-gradient-to-r from-cream/50 to-amber-50/50 rounded-lg p-4 transform transition-transform duration-300 hover:scale-105">
           <Calendar className="text-gold w-6 h-6" />
           <div>
             <p className="font-cormorant text-2xl md:text-3xl text-brown font-semibold">
@@ -45,7 +46,7 @@ const EventCard = ({
           </div>
         </div>
 
-        <div className="flex items-center justify-center space-x-3 bg-gradient-to-r from-amber-50/50 to-cream/50 rounded-lg p-4">
+        <div className="flex items-center justify-center space-x-3 bg-gradient-to-r from-amber-50/50 to-cream/50 rounded-lg p-4 transform transition-transform duration-300 hover:scale-105">
           <Clock className="text-gold w-6 h-6" />
           <div>
             <p className="font-cormorant text-xl md:text-2xl text-brown/80 mb-1">
@@ -57,7 +58,7 @@ const EventCard = ({
           </div>
         </div>
 
-        <div className="bg-gradient-to-br from-gold/5 to-amber-100/20 rounded-lg p-4">
+        <div className="bg-gradient-to-br from-gold/5 to-amber-100/20 rounded-lg p-4 transform transition-transform duration-300 hover:scale-105">
           <div className="flex items-center justify-center space-x-2 mb-2">
             <MapPin className="text-gold w-6 h-6" />
             <p className="font-cormorant text-xl md:text-2xl text-brown/80">
@@ -78,7 +79,7 @@ const EventCard = ({
             href={mapLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center space-x-2 px-8 py-3 bg-gradient-to-r from-gold to-amber-600 text-cream font-cormorant text-lg md:text-xl rounded-full hover:from-amber-600 hover:to-gold transition-all duration-300 shadow-md hover:shadow-xl transform hover:-translate-y-1"
+            className="inline-flex items-center space-x-2 px-8 py-3 bg-gradient-to-r from-gold to-amber-600 text-cream font-cormorant text-lg md:text-xl rounded-full hover:from-amber-600 hover:to-gold transition-all duration-300 shadow-md hover:shadow-xl transform hover:-translate-y-1 hover:scale-105 active:scale-95"
           >
             <MapPin className="w-5 h-5" />
             <span>View Location</span>

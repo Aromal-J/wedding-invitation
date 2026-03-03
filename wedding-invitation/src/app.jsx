@@ -32,6 +32,7 @@ export function App() {
             address={weddingDetails.ceremony.address}
             mapLink={weddingDetails.ceremony.mapLink}
             bgColor="bg-white"
+            animationDelay="200"
           />
           
           <EventCard
@@ -43,6 +44,7 @@ export function App() {
             address={weddingDetails.reception.address}
             mapLink={weddingDetails.reception.mapLink}
             bgColor="bg-amber-50/50"
+            animationDelay="500"
           />
         </div>
       </section>
