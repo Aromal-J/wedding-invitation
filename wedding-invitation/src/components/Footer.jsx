@@ -1,4 +1,4 @@
-import { Heart, Sparkles } from 'lucide-react';
+import { Heart, Sparkles } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -13,16 +13,16 @@ const Footer = () => {
             <Sparkles className="text-gold w-6 h-6" />
             <div className="w-16 h-px bg-gradient-to-l from-transparent to-gold"></div>
           </div>
-          
+
           <h3 className="font-serif text-3xl md:text-4xl text-brown mb-4 bg-gradient-to-r from-brown via-amber-900 to-brown bg-clip-text">
             Thank You
           </h3>
-          
+
           <p className="font-cormorant text-xl md:text-2xl text-brown/80 leading-relaxed max-w-2xl mx-auto">
-            Your presence on our special day will make it even more memorable. 
+            Your presence on our special day will make it even more memorable.
             We can't wait to celebrate with you!
           </p>
-          
+
           <div className="flex justify-center items-center space-x-3 mt-6">
             <div className="w-16 h-px bg-gradient-to-r from-transparent to-gold"></div>
             <Sparkles className="text-gold w-6 h-6" />

@@ -1,4 +1,4 @@
-import { MessageCircle, Sparkles } from 'lucide-react';
+import { MessageCircle, Sparkles } from "lucide-react";
 
 const RSVP = ({ message, whatsappNumber }) => {
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=Hello! I would like to confirm my attendance for the wedding.`;

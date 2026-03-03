@@ -1,8 +1,10 @@
-import { Heart, Sparkles } from 'lucide-react';
+import { Heart, Sparkles } from "lucide-react";
 
 const Hero = ({ groomName, brideName, weddingDate }) => {
   const scrollToInvitation = () => {
-    document.getElementById('couple-section').scrollIntoView({ behavior: 'smooth' });
+    document
+      .getElementById("couple-section")
+      .scrollIntoView({ behavior: "smooth" });
   };
 
   return (
@@ -13,13 +15,13 @@ const Hero = ({ groomName, brideName, weddingDate }) => {
         <div className="absolute bottom-20 right-10 w-40 h-40 bg-gold/5 rounded-full blur-3xl animate-pulse delay-700"></div>
         <div className="absolute top-1/2 left-1/3 w-24 h-24 bg-gold/5 rounded-full blur-2xl animate-pulse delay-1000"></div>
       </div>
-      
+
       {/* Floral border top */}
       <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-gold to-transparent"></div>
       <div className="absolute top-6 left-0 right-0 flex justify-center">
         <Sparkles className="text-gold w-12 h-12 opacity-30 animate-pulse" />
       </div>
-      
+
       <div className="max-w-4xl mx-auto px-6 py-20 text-center relative z-10">
         {/* Decorative element */}
         <div className="mb-8 flex justify-center items-center space-x-4 animate-fade-in">
@@ -37,11 +39,11 @@ const Hero = ({ groomName, brideName, weddingDate }) => {
         <h1 className="font-serif text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-brown mb-4 leading-tight">
           {groomName}
         </h1>
-        
+
         <div className="flex justify-center mb-4">
           <Heart className="text-red-400 w-12 h-12 md:w-14 md:h-14 fill-current animate-pulse" />
         </div>
-        
+
         <h1 className="font-serif text-3xl sm:text-4xl md:text-7xl lg:text-8xl text-brown mb-8 leading-tight whitespace-nowrap">
           {brideName}
         </h1>

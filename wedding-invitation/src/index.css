@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -11,26 +11,26 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
 }
 
 @layer utilities {
   .animate-fade-in {
     animation: fadeIn 1s ease-in forwards;
   }
-  
+
   .delay-300 {
     animation-delay: 300ms;
   }
-  
+
   .delay-500 {
     animation-delay: 500ms;
   }
-  
+
   .delay-700 {
     animation-delay: 700ms;
   }
-  
+
   .delay-1000 {
     animation-delay: 1000ms;
   }

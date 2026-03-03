@@ -1,8 +1,11 @@
-import { Sparkles, Heart } from 'lucide-react';
+import { Sparkles, Heart } from "lucide-react";
 
 const CoupleSection = ({ groom, bride }) => {
   return (
-    <section id="couple-section" className="py-16 md:py-24 bg-gradient-to-b from-cream to-amber-50 px-6">
+    <section
+      id="couple-section"
+      className="py-16 md:py-24 bg-gradient-to-b from-cream to-amber-50 px-6"
+    >
       <div className="max-w-6xl mx-auto">
         {/* Section Title */}
         <div className="text-center mb-16 animate-fade-in">

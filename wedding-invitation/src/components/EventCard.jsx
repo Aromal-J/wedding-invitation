@@ -1,8 +1,19 @@
-import { MapPin, Clock, Calendar, Sparkles } from 'lucide-react';
+import { MapPin, Clock, Calendar, Sparkles } from "lucide-react";
 
-const EventCard = ({ title, date, day, time, venue, address, mapLink, bgColor = "bg-white" }) => {
+const EventCard = ({
+  title,
+  date,
+  day,
+  time,
+  venue,
+  address,
+  mapLink,
+  bgColor = "bg-white",
+}) => {
   return (
-    <div className={`${bgColor} rounded-2xl shadow-xl p-8 md:p-10 border border-gold/20 transform transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 hover:border-gold/40`}>
+    <div
+      className={`${bgColor} rounded-2xl shadow-xl p-8 md:p-10 border border-gold/20 transform transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 hover:border-gold/40`}
+    >
       {/* Title */}
       <div className="text-center mb-8">
         <div className="flex justify-center items-center space-x-3 mb-3">
