@@ -1,15 +1,17 @@
+import { Sparkles, Heart } from 'lucide-react';
+
 const CoupleSection = ({ groom, bride }) => {
   return (
-    <section id="couple-section" className="py-16 md:py-24 bg-cream px-6">
+    <section id="couple-section" className="py-16 md:py-24 bg-gradient-to-b from-cream to-amber-50 px-6">
       <div className="max-w-6xl mx-auto">
         {/* Section Title */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 animate-fade-in">
           <div className="flex justify-center items-center space-x-3 mb-4">
-            <div className="w-16 h-px bg-gold"></div>
-            <div className="text-gold text-2xl">✿</div>
-            <div className="w-16 h-px bg-gold"></div>
+            <div className="w-16 h-px bg-gradient-to-r from-transparent to-gold"></div>
+            <Sparkles className="text-gold w-6 h-6" />
+            <div className="w-16 h-px bg-gradient-to-l from-transparent to-gold"></div>
           </div>
-          <h2 className="font-serif text-4xl md:text-5xl text-brown">
+          <h2 className="font-serif text-4xl md:text-5xl text-brown bg-gradient-to-r from-brown via-amber-900 to-brown bg-clip-text">
             The Happy Couple
           </h2>
         </div>
@@ -78,9 +80,9 @@ const CoupleSection = ({ groom, bride }) => {
 
         {/* Bottom Decorative Element */}
         <div className="flex justify-center items-center space-x-3 mt-12">
-          <div className="w-16 h-px bg-gold"></div>
-          <div className="text-gold text-2xl">✿</div>
-          <div className="w-16 h-px bg-gold"></div>
+          <div className="w-16 h-px bg-gradient-to-r from-transparent to-gold"></div>
+          <Sparkles className="text-gold w-6 h-6" />
+          <div className="w-16 h-px bg-gradient-to-l from-transparent to-gold"></div>
         </div>
       </div>
     </section>

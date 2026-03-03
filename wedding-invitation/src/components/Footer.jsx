@@ -1,18 +1,20 @@
+import { Heart, Sparkles } from 'lucide-react';
+
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="py-12 md:py-16 bg-cream px-6">
+    <footer className="py-12 md:py-16 bg-gradient-to-b from-cream to-amber-100 px-6">
       <div className="max-w-4xl mx-auto">
         {/* Thank You Message */}
         <div className="text-center mb-8">
           <div className="flex justify-center items-center space-x-3 mb-6">
-            <div className="w-16 h-px bg-gold"></div>
-            <div className="text-gold text-2xl">✿</div>
-            <div className="w-16 h-px bg-gold"></div>
+            <div className="w-16 h-px bg-gradient-to-r from-transparent to-gold"></div>
+            <Sparkles className="text-gold w-6 h-6" />
+            <div className="w-16 h-px bg-gradient-to-l from-transparent to-gold"></div>
           </div>
           
-          <h3 className="font-serif text-3xl md:text-4xl text-brown mb-4">
+          <h3 className="font-serif text-3xl md:text-4xl text-brown mb-4 bg-gradient-to-r from-brown via-amber-900 to-brown bg-clip-text">
             Thank You
           </h3>
           
@@ -22,15 +24,15 @@ const Footer = () => {
           </p>
           
           <div className="flex justify-center items-center space-x-3 mt-6">
-            <div className="w-16 h-px bg-gold"></div>
-            <div className="text-gold text-2xl">✿</div>
-            <div className="w-16 h-px bg-gold"></div>
+            <div className="w-16 h-px bg-gradient-to-r from-transparent to-gold"></div>
+            <Sparkles className="text-gold w-6 h-6" />
+            <div className="w-16 h-px bg-gradient-to-l from-transparent to-gold"></div>
           </div>
         </div>
 
         {/* Decorative Divider */}
         <div className="my-8 flex justify-center">
-          <div className="text-gold text-4xl">❤️</div>
+          <Heart className="text-gold w-8 h-8 fill-current animate-pulse" />
         </div>
 
         {/* Copyright */}

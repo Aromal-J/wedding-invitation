@@ -47,10 +47,10 @@ export const weddingDetails = {
   gallery: {
     images: [
       "/images/ABP_1036.JPG.jpeg",
-      "/images/ABP_1549.JPG.jpeg",
-      "/images/ABP_1858.JPG.jpeg",
       "/images/ABP_1867.JPG.jpeg",
+      "/images/1757912612334.jpg.jpeg",
       "/images/ABP_1936.JPG.jpeg",
+      "/images/1757949765958.jpg.jpeg",
       "/images/ABP_1955.JPG.jpeg",
     ],
   },
